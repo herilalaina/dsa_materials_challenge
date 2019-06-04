@@ -36,7 +36,7 @@ To submit, zip `model.py` and `metadata` (you can find them in `sample_code_subm
 ### 2- Use jupyter notebook
 
 Run `jupyter notebook` in your terminal then open `Readme.ipynb`.
-<b>Set your kernel into `DSA`</b> before running cells. If you run the notebook until the last cell, it should create for you submission-XXXX.zip, upload it to Codalab.
+<b>Set your kernel into `DSA`</b> before running cells. If you run the notebook until the last cell, it should create for you sample_code_submission-XXXX.zip, upload it to Codalab.
 
 
 <h1> Tips to improve your score</h1>
