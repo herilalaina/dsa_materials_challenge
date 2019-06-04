@@ -1,36 +1,17 @@
-This is a sample starting kit for the Data Science Africa challenge.
-It uses the Microscopy dataset from http://air.ug/microscopy/.
+This is a template that help for creating a challenge in Codalab.
 
-Prerequisites:
-Install Anaconda Python 3.6.6, Tensorflow (2.0.0), opencv-python (4.0.1), scikit-image (0.15.0)
+To create a challenge, you need to follow theses steps:
+* Get your data then split it in train, valid, test (ex in `sample_data`)
+* Create a baseline that works (ex in `sample_code_submission/model.py`)
+* Create a description of your challenge as a html (ex in `html_pages`)
+* Define how do your read your data, train your baseline and make a prediction (ex in `ingestion_program/ingestion.py`)
+* Define your metric in `scoring_program/metric.txt`
+* Complete `utilities/competition.yaml`
 
-or
+To create a bundle of your challenge, run:
+```bash
+cd utilities
+python make_bundles.py
+```
 
-run your code within the Codalab docker (inside the docker, python 3.6 is called python3):
-
-	`docker run -it -p 8888:8888 -v `pwd`:/home/aux herilalaina/dsa:2.0`
-
-	`DockerPrompt# cd /home/aux`
-	`DockerPrompt# python3 ingestion_program/ingestion.py sample_data sample_result_submission ingestion_program sample_code_submission`
-	`DockerPrompt# python3 scoring_program/score.py sample_data sample_result_submission scoring_output`
-	`DockerPrompt# exit`
-
-
-
-Usage:
-- The two files sample_*_submission.zip are sample submissions ready to go!
-
-- The file README.ipynb contains step-by-step instructions on how to create a sample submission for the challenge.
-At the prompt type:
-jupyter-notebook README.ipynb
-
-- modify sample_code_submission to provide a better model
-
-- zip the contents of sample_code_submission (without the directory, but with metadata), or
-
-- download the public_data and run (double check you are running the correct version of python):
-
-  `python ingestion_program/ingestion.py public_data sample_result_submission ingestion_program sample_code_submission`
-
-then zip the contents of sample_result_submission (without the directory).
-
+It will generate a bundle that can be uploaded to the platforme (ex. codalab.lri.fr or your own codalab server).
