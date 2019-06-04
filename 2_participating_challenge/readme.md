@@ -17,6 +17,7 @@ In order to test your code, you can:
 
 
 ### 1- Use bash/shell command
+
 Training is done with the following command in codalab
 ```bash
 cd ingestion_program
@@ -30,9 +31,11 @@ python score.py
 ```
 
 
-### Use jupyter notebook
+### 2- Use jupyter notebook
+
 Run `jupyter notebook` in your terminal then open `Readme.ipynb`.
-<b>Set your kernel into `DSA`</b>
+<b>Set your kernel into `DSA`</b> before running cells.
+
 
 
 # Tips to improve your score
