@@ -10,7 +10,7 @@ source activate dsa2018
 pip install -r requirements.txt
 ```
 
-To make your environment visible in jupyter notebook, follow theses steps:
+To make your environment visible in jupyter notebook, run:
 ```bash
 python -m ipykernel install --user --name dsa2018 --display-name "DSA"
 ```
