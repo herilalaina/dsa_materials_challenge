@@ -15,6 +15,6 @@ To make your environment visible in jupyter notebook, follow theses steps:
 python -m ipykernel install --user --name dsa2018 --display-name "DSA"
 ```
 
-Finally, you need to create a team of 3 or 4 people then create an account to https://codalab.lri.fr
+Finally, you need to create a team of 3 or 4 people then create an account to https://codalab.lri.fr/competitions/
 
 <b>Now you are ready to start the tutorial. Enjoy :)</b>
