@@ -4,6 +4,8 @@ Please insure that you have correctly installed anaconda as described here: http
 
 Install Tensorlfow 2.0 cpu (alpha) and Pyaml with:
 ```bash
+git clone https://github.com/herilalaina/dsa_materials_challenge
+cd dsa_materials_challenge
 source activate dsa2018
 pip install -r requirements.txt
 ```
