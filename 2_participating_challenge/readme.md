@@ -37,7 +37,6 @@ Run `jupyter notebook` in your terminal then open `Readme.ipynb`.
 <b>Set your kernel into `DSA`</b> before running cells.
 
 
-
 # Tips to improve your score
 
 Non-exhaustive idea that can improve your score. Please remember that training time is limited to 300sec (it may change).
