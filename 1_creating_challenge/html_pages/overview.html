@@ -1,0 +1,59 @@
+<h1>Challenge on Microscopy dataset</h1>
+<h3>Brought to you by Data Science Africa committee</h3>
+<b>Source: http://air.ug/microscopy/</b>
+
+
+<h3>Presentation</h3>
+<p>Although microscopes are common in Uganda and other developing countries, a shortage of lab technicians to operate them means that access to quality diagnostic services is limited for much of the population. This leads to misdiagnoses of disease, which in turn causes life-threatening conditions to be incorrectly treated, drug resistance, and the economic burden of buying unecessary drugs. Even where health facilities have lab technicians, they are often oversubscribed and have difficulty spending enough time on each sample to give a confident diagnosis.
+Given that smartphones are widely owned across the developing world, there is a technological opportunity to address this problem: phones can be used to capture and process microscopy images. This project aims to produce a functioning point-of-care diagnosis system on this principle, capable of running on multiple microscope and phone combinations. Our work exploits recent technological advances in 3D printing and deep learning to produce effective hardware and software respectively.</p>
+
+
+<h3>Our challenge</h3>
+<p>The goal is to train machine learning methods to recognise different pathogen objects, and to make this accessible in the form of an Android application usable at the point of care. This work began with machine learning methods based on extracting statistical characterisations of the shapes in each image.
+<img src="http://air.ug/microscopy/plasmodium-detection.jpg" alt="Illustration">
+</p>
+
+
+<h3>Project Website</h3>
+<p>
+See the full description <a href="http://air.ug/microscopy/">here</a>.
+</p>
+
+
+<h4>How to participate</h4>
+<p>
+  Prerequisites:
+  Install Anaconda Python 3.6.6, Tensorflow (2.0.0), opencv-python (4.0.1), scikit-image (0.15.0)
+
+  or
+
+  run your code within the Codalab docker (inside the docker, python 3.6 is called python3):
+
+  	`docker run -it -p 8888:8888 -v `pwd`:/home/aux herilalaina/dsa:2.0`
+
+  	`DockerPrompt# cd /home/aux`
+  	`DockerPrompt# python3 ingestion_program/ingestion.py sample_data sample_result_submission ingestion_program sample_code_submission`
+  	`DockerPrompt# python3 scoring_program/score.py sample_data sample_result_submission scoring_output`
+  	`DockerPrompt# exit`
+
+
+
+  Download the starting kit. Usage:
+  - The two files sample_*_submission.zip are sample submissions ready to go!
+
+  - The file README.ipynb contains step-by-step instructions on how to create a sample submission for the challenge.
+  At the prompt type:
+  jupyter-notebook README.ipynb
+
+  - modify sample_code_submission to provide a better model
+
+  - zip the contents of sample_code_submission (without the directory, but with metadata), or
+
+  - download the public_data and run (double check you are running the correct version of python):
+
+    `python ingestion_program/ingestion.py public_data sample_result_submission ingestion_program sample_code_submission`
+
+  then zip the contents of sample_result_submission (without the directory).
+
+
+</p>
