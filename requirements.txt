@@ -14,7 +14,7 @@ dask==1.2.2
 decorator==4.4.0
 defusedxml==0.5.0
 entrypoints==0.2.3
-eventlet==0.23.0
+eventlet==0.31.0
 Flask==1.0.3
 Flask-SocketIO==3.3.2
 gast==0.2.2
